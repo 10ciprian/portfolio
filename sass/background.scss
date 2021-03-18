@@ -1,0 +1,114 @@
+@import 'variables';
+
+.landing-page-background{
+    position:absolute;
+    width:100%;
+   .circle1{
+       height:250px;
+       width:250px;
+       background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+       border-radius:50%;
+       margin-left:50px;
+       margin-top:-80px;
+       position:absolute;
+   }
+   .circle2{
+    height:150px;
+    width:150px;
+    background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+    border-radius:50%;
+    position:absolute;
+    right:25px;
+    top:640px;
+   }
+   .circle3{
+       height:100px;
+       width:100px;
+       background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+    border-radius:50%;
+    position:absolute;
+    right:170px;
+    top:84px;
+   }
+   .polygon1{
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height:50px;
+    width:50px; 
+    background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+    right:85px;
+    top:245px;
+   }
+   .polygon2{
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height:50px;
+    width:50px; 
+    background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+    right:184px;
+    top:845px;
+   }
+  
+   .polygon4{
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height:50px;
+    width:50px; 
+    background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+    left:200px;
+    top:500px;
+   }
+   
+   .square{
+    clip-path: polygon(0% 0%, 0% 100%, 12% 100%, 11% 13%, 89% 12%, 90% 90%, 11% 90%, 12% 100%, 100% 100%, 100% 0%);
+    background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+    height:200px;
+    width:200px; 
+    transform: skewX(30deg);
+    position: absolute;
+    left:-80px;
+    top:650px;
+   }
+   .square1{
+    clip-path: polygon(0% 0%, 0% 100%, 12% 100%, 11% 13%, 89% 12%, 90% 90%, 11% 90%, 12% 100%, 100% 100%, 100% 0%);
+    background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+    height:150px;
+    width:150px; 
+    transform: skewX(30deg);
+    position: absolute;
+    left:-55px;
+    top:677px;
+   }
+   .papa{
+    clip-path: polygon(0% 0%, 0% 100%, 12% 100%, 11% 13%, 89% 12%, 90% 90%, 11% 90%, 12% 100%, 100% 100%, 100% 0%);
+    background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+    height:110px;
+    width:110px; 
+    transform: skewX(30deg);
+    position: absolute;
+    left:-35px;
+    top:699px;
+   }
+   .pentagon1{
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+    height:100px;
+    width:100px;
+    position:absolute;
+    transform: rotate(90deg);
+    left:50px;
+    top:300px;
+   }
+   .pentagon2{
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    background:linear-gradient(130deg, $color1 10%, $color2 50%, orange);
+    height:100px;
+    width:100px;
+    position:absolute;
+    transform: rotate(270deg);
+    right:145px;
+    top:400px;
+   }
+  
+}
+

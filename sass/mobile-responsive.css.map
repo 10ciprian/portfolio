@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,UAAU,CAAA;IACN,OAAO,EAAC,IAAI;GACf",
+    "sources": [
+        "mobile-responsive.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "mobile-responsive.css"
+}

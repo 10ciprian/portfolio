@@ -1,0 +1,133 @@
+.landing-page-background {
+  position: absolute;
+  width: 100%;
+}
+
+.landing-page-background .circle1 {
+  height: 250px;
+  width: 250px;
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: -80px;
+  position: absolute;
+}
+
+.landing-page-background .circle2 {
+  height: 150px;
+  width: 150px;
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  border-radius: 50%;
+  position: absolute;
+  right: 25px;
+  top: 640px;
+}
+
+.landing-page-background .circle3 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  border-radius: 50%;
+  position: absolute;
+  right: 170px;
+  top: 84px;
+}
+
+.landing-page-background .polygon1 {
+  position: absolute;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+          clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  right: 85px;
+  top: 245px;
+}
+
+.landing-page-background .polygon2 {
+  position: absolute;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+          clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  right: 184px;
+  top: 845px;
+}
+
+.landing-page-background .polygon4 {
+  position: absolute;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+          clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  left: 200px;
+  top: 500px;
+}
+
+.landing-page-background .square {
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 12% 100%, 11% 13%, 89% 12%, 90% 90%, 11% 90%, 12% 100%, 100% 100%, 100% 0%);
+          clip-path: polygon(0% 0%, 0% 100%, 12% 100%, 11% 13%, 89% 12%, 90% 90%, 11% 90%, 12% 100%, 100% 100%, 100% 0%);
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  height: 200px;
+  width: 200px;
+  -webkit-transform: skewX(30deg);
+          transform: skewX(30deg);
+  position: absolute;
+  left: -80px;
+  top: 650px;
+}
+
+.landing-page-background .square1 {
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 12% 100%, 11% 13%, 89% 12%, 90% 90%, 11% 90%, 12% 100%, 100% 100%, 100% 0%);
+          clip-path: polygon(0% 0%, 0% 100%, 12% 100%, 11% 13%, 89% 12%, 90% 90%, 11% 90%, 12% 100%, 100% 100%, 100% 0%);
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  height: 150px;
+  width: 150px;
+  -webkit-transform: skewX(30deg);
+          transform: skewX(30deg);
+  position: absolute;
+  left: -55px;
+  top: 677px;
+}
+
+.landing-page-background .papa {
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 12% 100%, 11% 13%, 89% 12%, 90% 90%, 11% 90%, 12% 100%, 100% 100%, 100% 0%);
+          clip-path: polygon(0% 0%, 0% 100%, 12% 100%, 11% 13%, 89% 12%, 90% 90%, 11% 90%, 12% 100%, 100% 100%, 100% 0%);
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  height: 110px;
+  width: 110px;
+  -webkit-transform: skewX(30deg);
+          transform: skewX(30deg);
+  position: absolute;
+  left: -35px;
+  top: 699px;
+}
+
+.landing-page-background .pentagon1 {
+  -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+          clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  left: 50px;
+  top: 300px;
+}
+
+.landing-page-background .pentagon2 {
+  -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+          clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  background: linear-gradient(130deg, #1E1D35 10%, #6D4577 50%, orange);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  right: 145px;
+  top: 400px;
+}
+/*# sourceMappingURL=background.css.map */

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', 'bold';
+}
+
+.cover1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #693BC0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  -webkit-animation: slide 2s;
+          animation: slide 2s;
+  color: white;
+  left: -100vw;
+}
+
+.cover1 .ten {
+  display: block;
+}
+
+.cover2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #693BC0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: -100vw;
+  -webkit-animation: slide2 2s;
+          animation: slide2 2s;
+  color: red;
+}
+
+.text-transition {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1000;
+}
+
+.text-transition h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.text-transition img {
+  width: 100px;
+  height: 100px;
+}
+
+@-webkit-keyframes slide {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100vw;
+  }
+}
+
+@keyframes slide {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100vw;
+  }
+}
+
+@-webkit-keyframes slide2 {
+  from {
+    right: 0;
+  }
+  to {
+    right: -100vw;
+  }
+}
+
+@keyframes slide2 {
+  from {
+    right: 0;
+  }
+  to {
+    right: -100vw;
+  }
+}
+/*# sourceMappingURL=home-transition.css.map */
