@@ -319,9 +319,9 @@ body {
   margin-bottom: 25px;
 }
 
-.container .elements .transitionBtn {
+.container .elements .transitionBtn{
   position: absolute;
-  padding: 12px 15px;
+  padding: 8px 15px;
   border: 2px solid #EDB35F;
   border-radius:10%;
   text-decoration: none;
