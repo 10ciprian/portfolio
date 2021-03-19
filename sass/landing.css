@@ -323,6 +323,7 @@ body {
   position: absolute;
   padding: 12px 15px;
   border: 2px solid #EDB35F;
+  border-radius:10%;
   text-decoration: none;
   color: white;
   font-weight: 600;
